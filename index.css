@@ -1,4 +1,6 @@
 .navbar ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,4 +36,11 @@ h1 {
 
 body {
     background-color: lightslategrey;
+}
+
+@media screen and (max-width: 920px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
