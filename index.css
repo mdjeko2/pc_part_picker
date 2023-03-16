@@ -1,0 +1,37 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid grey;
+}
+
+.navbar a {
+    display: block;
+    padding: 12px 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: aqua;
+}
+
+.active {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightslategrey;
+}
