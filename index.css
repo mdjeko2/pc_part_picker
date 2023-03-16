@@ -1,3 +1,7 @@
+.active {
+    background-color: grey;
+}
+
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -26,17 +30,26 @@
     background-color: aqua;
 }
 
-.active {
-    background-color: grey;
+.builder_table {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_build tr:first-child {
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    background-color: lightslategrey;
 }
 
 h1 {
     text-align: center;
 }
 
-body {
-    background-color: lightslategrey;
-}
 
 @media screen and (max-width: 920px) {
     .navbar ul {
