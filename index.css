@@ -37,9 +37,8 @@
     justify-content: center;
 }
 
-.table_build tr:first-child {
-    color: black;
-    font-size: 25px;
+.builder_table th {
+    padding: 20px;
 }
 
 body {
