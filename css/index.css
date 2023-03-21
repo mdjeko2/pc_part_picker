@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-.builder_table th {
+.builder_table td, th {
     padding: 20px;
 }
 
