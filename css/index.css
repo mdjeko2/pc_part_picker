@@ -41,6 +41,10 @@
     padding: 20px;
 }
 
+.builder_table th {
+    text-align: left;
+}
+
 body {
     background-color: lightslategrey;
 }
