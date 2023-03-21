@@ -30,18 +30,18 @@
     background-color: aqua;
 }
 
-.builder_table {
+table {
     margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.builder_table td, th {
+td, th {
     padding: 20px;
 }
 
-.builder_table th {
+th {
     text-align: left;
 }
 
